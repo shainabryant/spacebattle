@@ -4,10 +4,90 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Shaina's Space Battle</title>
-    <script type="text/javascript" src="app.js"></script>
+    <!-- <link href="https://fonts.googleapis.com/css?family-Acme" rel="stylesheet"> -->
     <link rel="stylesheet" href="style.css">
+    <script src="./JS/app.js"></script>
+    <script src="./JS/player.js"></script>
+    <script src="./JS/enemy.js"></script>
 </head>
 <body>
-    
+    <!-- There are 5 divs to represent the sections on the page. -->
+    <!-- header is the top section of the page -->
+    <div class="header">
+        <p>Destroy all of the alien spaceships! </p>
+        <h2>Read About Your Character & Click to Start!</h2>
+    </div>
+    <!-- interface is the section with the information and properties of the player and alien opponents--> 
+    <div class="interface">
+        <a href="#" onclick="App.setGameStart('USS Schwarzenegger')">
+            <img src="./assets/uss-1.png" alt="USS Schwarzenegger Ship">
+            <div>
+                <h3>USS Schwarzenegger </h3>
+                <p>As Captain of USS Schwarzenegger, you have the following properties: <br> Hull:20 <br> Firepower: 5 <br> Accuracy: 70% <br> </p>
+            </div>
+        </a>
+        <br><br><br>
+        <a href="#" onclick="App.setGameStart('USS Stallone')">
+            <img src="./assets/uss-2.png" alt="USS Stallone Ship">
+            <div>
+                <h3>USS Stalone </h3>
+                <p>As Captain of USS Stallone, you have the following properties: <br> Hull:18 <br> Firepower: 7 <br> Accuracy: 70% <br> </p>
+            </div>
+        </a>
+        <!-- <a href="#" >
+            <img src="./assets/alien-ship1.png" alt="Alien Spaceship 1">
+            <div>
+                <h3>Alien Spaceship 1</h3>
+                <p>Your first battle will be against alien ship 1. It has the following properties:<br>  Hull:3 <br> Firepower: 2 <br> Accuracy: 60-80% <br> </p>
+            </div>
+        </a>
+        <a href="#" >
+            <img src="./assets/alien-ship2.png" alt="Alien Spaceship 2">
+            <div>
+                <h3>Alien Spaceship 2</h3>
+                <p>Your second battle will be against alien ship 2. It has the following properties:<br>Hull:3 <br> Firepower: 2 <br> Accuracy: 60-80%<br> </p>
+            </div>
+        </a>
+        <a href="#">
+            <img src="./assets/alien-ship3.png" alt="Alien Spaceship 3">
+            <div>
+                <h3>Alien Spaceship 3</h3>
+                <p>Your third battle will be against alien ship 3. It has the following properties:<br>Hull:4 <br> Firepower: 2 <br> Accuracy: 60-80% <br> </p>
+            </div>
+        </a>
+        <a href="#">
+            <img src="./assets/alien-ship4.png" alt="Alien Spaceship 4">
+            <div>
+                <h3>Alien Spaceship 4</h3>
+                <p>Your fourth battle will be against alien ship 4. It has the following properties:<br>Hull:4 <br> Firepower: 3 <br> Accuracy: 60-80% <br> </p>
+            </div>
+        </a>
+        <a href="#">
+            <img src="./assets/alien-ship5.png" alt="Alien Spaceship 5">
+            <div>
+                <h3>Alien Spaceship 5</h3>
+                <p>Your fifth battle will be against alien ship 5. It has the following properties:<br> Hull:5 <br> Firepower: 3 <br> Accuracy: 60-80% <br> </p>
+            </div>
+        </a>
+        <a href="#">
+            <img src="./assets/alien-ship6.png" alt="Alien Spaceship 6">
+            <div>
+                <h3>Alien Spaceship 6</h3>
+                <p>Your final battle will be against alien ship 6. It has the following properties:<br>Hull:6 <br> Firepower: 4 <br> Accuracy: 60-80% <br> </p>
+            </div>
+        </a> -->
+    </div>
+    <!-- actions is the are where you can attack or retreat -->
+    <div class="actions">
+        
+    </div>
+    <!-- defend the the player battle space -->
+    <div class="defend">
+        
+    </div>
+    <!-- enemy is the enemy battle space -->
+    <div class="enemy">
+        
+    </div>
 </body>
 </html>
